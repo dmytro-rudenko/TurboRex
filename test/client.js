@@ -1,7 +1,7 @@
-const TurboRexClient = require('../client')
+const { TurboRexClient } = require("../index");
 
 const main = async () => {
-  const rex = new TurboRexClient('http://localhost', '3000');
+  const rex = new TurboRexClient("http://localhost", "3000");
 
   rex.defineCalls(["msg", "plus"]);
 

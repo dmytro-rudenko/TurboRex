@@ -1,17 +1,14 @@
-const TurboRexServer = require('../server')
+const { TurboRexServer } = require("../index");
 const rex = new TurboRexServer(3000);
 
 rex.defineQueries([
-  rex.add('msg', (data) => {
-    const res = 'ababagalamaga: ' + data
+  rex.add("msg", (data) => {
+    const res = "ababagalamaga: " + data;
 
-    return res
+    return res;
   }),
 
-  rex.add('plus', ({
-    a,
-    b
-  }) => {
-    return a + b
-  })
-])
+  rex.add("plus", ({ a, b }) => {
+    return a + b;
+  }),
+]);
