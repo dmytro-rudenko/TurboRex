@@ -7,7 +7,7 @@ TurboRex is a lightweight library for creating real-time applications using Sock
 To install TurboRex, clone the repository and install the necessary dependencies:
 
 ```bash
-git clone <your-repo-url>
+git clone git@github.com:dmytro-rudenko/TurboRex.git
 cd TurboRex
 npm install
 ```
