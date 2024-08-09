@@ -58,7 +58,7 @@ const main = async () => {
   const result = await rex.call("msg", "hello server");
   const r = await rex.call("plus", { a: 10, b: 15 });
 
-  console.log("result:", result, r);
+  console.log("result:", result, r); // result: ababagalamaga: hello server 25
 };
 
 main();
