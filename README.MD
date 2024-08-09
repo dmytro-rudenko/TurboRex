@@ -1,6 +1,3 @@
-Here's a `README.md` for your TurboRex library:
-
-```markdown
 # TurboRex
 
 TurboRex is a lightweight library for creating real-time applications using Socket.IO on both the server and client side. It provides a simple API to define and handle queries with custom logic.
